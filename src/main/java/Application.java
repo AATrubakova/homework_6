@@ -7,6 +7,7 @@ public class Application {
         Cat leo = new Cat("Леопольд");
         Cat murzik = new Cat("Мурзик");
         Cat vasya = new Cat("Вася");
+        Cat sailor = new Cat("Матроскин");
 
         bobik.running(100);
         sharik.running(500);
@@ -19,6 +20,7 @@ public class Application {
         leo.running(150);
         murzik.running(250);
         vasya.running(100);
+        sailor.running(180);
 
         murzik.swimming(1);
 
